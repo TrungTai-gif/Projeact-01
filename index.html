@@ -4,30 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F8 project 01</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <main>
-        <header class="header">
-            <div class="container">
-                <nav class="navbar">
+
+    <header  class="header">
+        <div class="container">
+            <nav class="navbar">
+            <a href="#">
                 <img src="./assets/img/logo.svg" alt="Bensnik">
-                    <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Fratures</a></li>
-                        <li><a href="#!">Service</a></li>
-                        <li><a href="#!">Listed</a></li>
-                        <li><a href="#!">Contact</a></li>
-                    </ul>
-                    <div class="actions">
-                        <a href="#!">Sign up</a>
-                        <a class="btn btn-register" href="#!">Register</a>
-                    </div>
-                </nav>
-            </div>
-        </header>
+            </a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#fratures">Features</a></li>
+                    <li><a href="#listed">Listed</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="actions">
+                    <a href="#!">Sign up</a>
+                    <a class="btn btn-register" href="#!">Register</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
         <div class="hero-top">
             <div class="hero-top-bg container">
                 <div class="hero">
@@ -69,7 +92,7 @@
             </div>
         </div>
 
-        <div class="how container">
+        <div id="service"  class="how container">
             <h2>How its works ?</h2>
             <p>Everything you need to know when you're looking to buy, rent, or sell - all in one place.</p>
             <div class="guides">
@@ -101,7 +124,7 @@
             <a class="btn how-btn" href="#!">Sell Full Guidelines</a>
         </div>
 
-        <div class="featured">
+        <div id="fratures" class="featured">
             <div class="container">
                 <h2 class="title">Featured Properties</h2>
                 <div class="dsec">
@@ -167,7 +190,7 @@
             </div>
         </div>
         
-        <div class="stats">
+        <div id="listed"  class="stats">
             <div class="stat-top">
                 <div class="stat-left">
                     <img src="https://images.unsplash.com/photo-1755719985500-b6049b2ecb1f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="You’ve found a neighborhood you love." class="stat-img">
@@ -233,7 +256,7 @@
             </div>
         </div>
 
-        <div class="home container">
+        <div id="contact" class="home container">
             <div class="home-featured">
                 <h2>Featured Properties</h2>
                 <p>Everything you need to know when you're looking</p>
@@ -243,45 +266,44 @@
                 <img src="./assets/img/home-illustration.svg" alt="Featured Properties">
             </div>
         </div>
-
-        <footer class="footer container">
-            <div class="footer-top">
-                <div class="footer-item">
-                    <h3>Product</h3>
-                    <a href="#!">Listing</a>
-                    <a href="#!">Property</a>
-                    <a href="#!">Agents</a>
-                    <a href="#!">Blog</a>
-                </div>
-                <div class="footer-item">
-                    <h3>Resources</h3>
-                    <a href="#!">Our Homes</a>
-                    <a href="#!">Member Stories</a>
-                    <a href="#!">Video</a>
-                    <a href="#!">Free trial</a>
-                </div>
-                <div class="footer-item">
-                    <h3>Company</h3>
-                    <a href="#!">Patnerships</a>
-                    <a href="#!">Terms of use</a>
-                    <a href="#!">Privacy</a>
-                    <a href="#!">Sitemap</a>
-                </div>
-                <div class="footer-item">
-                    <h3>Get in touch</h3>
-                    <p>You’ll find your next home, in any style you prefer.</p>
-                    <div class="social">
-                        <div class="social-item"><img src="./assets/img/icon-f.svg" alt="social"></div>
-                        <div class="social-item"><img src="./assets/img/icon-t.svg" alt="social"></div>
-                        <div class="social-item"><img src="./assets/img/icon-in.svg" alt="social"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <img src="./assets/img/logo.svg" alt="Bensnik">
-                <p>Copyright 2020.com, All rights reserved.</p>
-            </div>
-        </footer>
     </main>
+    <footer class="footer container">
+        <div class="footer-top">
+            <div class="footer-item">
+                <h3>Product</h3>
+                <a href="#!">Listing</a>
+                <a href="#!">Property</a>
+                <a href="#!">Agents</a>
+                <a href="#!">Blog</a>
+            </div>
+            <div class="footer-item">
+                <h3>Resources</h3>
+                <a href="#!">Our Homes</a>
+                <a href="#!">Member Stories</a>
+                <a href="#!">Video</a>
+                <a href="#!">Free trial</a>
+            </div>
+            <div class="footer-item">
+                <h3>Company</h3>
+                <a href="#!">Patnerships</a>
+                <a href="#!">Terms of use</a>
+                <a href="#!">Privacy</a>
+                <a href="#!">Sitemap</a>
+            </div>
+            <div class="footer-item">
+                <h3>Get in touch</h3>
+                <p>You’ll find your next home, in any style you prefer.</p>
+                <div class="social">
+                    <div class="social-item"><img src="./assets/img/icon-f.svg" alt="social"></div>
+                    <div class="social-item"><img src="./assets/img/icon-t.svg" alt="social"></div>
+                    <div class="social-item"><img src="./assets/img/icon-in.svg" alt="social"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <img src="./assets/img/logo.svg" alt="Bensnik">
+            <p>Copyright 2020.com, All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

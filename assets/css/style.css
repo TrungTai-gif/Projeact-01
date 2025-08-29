@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     --Gray-4F5: #4F5361;
@@ -49,6 +53,7 @@ a{
     flex-direction: column;
     height: calc(100vh - 72px); 
     position: relative;
+    justify-content: center;
 }
 
 
@@ -83,7 +88,6 @@ a{
 }
 
 .hero {
-    margin-top: 130px;
     max-width: 50.4%;
 }
 
